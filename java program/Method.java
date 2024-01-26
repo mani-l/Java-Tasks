@@ -1,6 +1,6 @@
 class Method{
 	static void printHello(){
-		System.out.println("Hello");
+		System.out.println("mani");
 	}
 	public static void main(String arys[]){
 		printHello();
