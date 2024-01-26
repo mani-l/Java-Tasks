@@ -1,0 +1,11 @@
+class Methods
+{
+void printHello()
+{
+system.out.print("Hello");
+}
+public static void main(String arys[]){
+Methods m = new Methods();
+m.printHello();
+}
+}
