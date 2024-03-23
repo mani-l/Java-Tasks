@@ -1,0 +1,28 @@
+package java_task;
+import java.util.*;
+import java.util.List;
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5};
+
+		ArrayList<String> ans = new ArrayList<>();
+		for(int i=0;i<a.length;i++) {
+			if(i % 15 == 0) {
+				ans.add("FizzBuzz");
+			}
+			else if(i %  3 == 0) {
+				ans.add("Fizz");	
+			}
+			else if(i % 5 == 0) {
+				ans.add("Buzz");
+			}
+			else {
+				ans.add(String.valueOf(a[i]));
+			}
+		}
+		System.out.println(ans);
+	}
+
+}
